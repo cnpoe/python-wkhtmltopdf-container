@@ -1,6 +1,6 @@
 FROM python:3.7.0-slim-stretch
 
-RUN apt-get update -y && apt-get install -y --no-install-recommends \
+RUN apt-get update -y && apt-get install -y \
     python3-dev \
     curl \
     xz-utils \
